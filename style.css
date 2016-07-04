@@ -1,0 +1,39 @@
+body {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+}
+.box{ /*Задаем область нашего списка*/
+	//width: 500px;
+	margin: 20px 0 20px 20px;
+	background-color: #FCEABF;
+	color: black;
+}
+.my_list { /*Стиль списка в целом*/
+	margin: 10px;
+	list-style: none;
+	padding: 0;
+	/*display: box;*/
+
+}
+.info_icon { /*Стиль элементов списка*/
+/*width: 300px;*/
+padding-left: 110px;
+padding-bottom: 10px;
+min-height: 100px;
+
+}
+
+/*Стили фонов картинки*/
+.settings {
+	background: url(sm/settings-icon.png) left top no-repeat;
+}
+.phone {
+	background: url(sm/phone-icon.png)  left top  no-repeat;
+}
+.web {
+	background: url(sm/web_de_icon_1.png)  left top  no-repeat;
+}
+
+.home {
+	background: url(sm/Home-icon.png)  left top  no-repeat;
+}
