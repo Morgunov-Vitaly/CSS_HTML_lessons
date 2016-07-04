@@ -1,0 +1,203 @@
+/* Решение при помощи которого втраиваются иконки к списку с возможностью вертикальной центровки иконки по высоте текста списка превышающего размер иконки */
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+}
+
+h1 {
+	font-size: 16px;	
+}
+p{
+	font-size:12px;
+}
+
+.box{ /*Задаем область нашего списка*/
+	//width: 500px;
+	margin: 20px 0 20px 20px;
+	background-color: #FCEABF;
+	color: black;
+}
+ul { /*Стиль списка в целом*/
+	margin: 10px;
+	list-style: none;
+	padding: 0;
+	display: block;
+
+}
+li { /*Стиль элементов списка*/
+padding-left: 10px;
+padding-bottom: 10px;
+margin-left: 140px;
+min-height: 139px;
+display: list-item;
+width: 500px;
+position:relative;
+}
+
+
+.icon-analytics:before {
+				content: "";
+				position:absolute;
+				display: block;
+				margin: auto;  /* для выравнивания по центру  - убрать для выравнивания по верху*/
+				top: 0;  /* для выравнивания по центру */
+				bottom: 0;  /* для выравнивания по центру */
+				margin-left: -140px; /* смещение иконки влево от текста списка оно совпадает со значением отступа самого списка */
+				padding:0;
+				float: left;
+				background: url(img/icons/spritesheet.png) left center no-repeat;
+				width: 125px;
+				height: 139px;
+    background-position: -5px -5px;
+}
+
+.icon-bank:before {
+				content: "";
+				position:absolute;
+				display: block;
+				margin: auto;  /* для выравнивания по центру  - убрать для выравнивания по верху*/
+				top: 0;  /* для выравнивания по центру */
+				bottom: 0;  /* для выравнивания по центру */
+				margin-left: -140px; /* смещение иконки влево от текста списка оно совпадает со значением отступа самого списка */
+				padding:0;
+				float: left;
+				background: url(img/icons/spritesheet.png) left center no-repeat;
+				width: 125px;
+				height: 139px;
+    background-position: -5px -154px;
+}
+
+.icon-bulb:before {
+				content: "";
+				position:absolute;
+				display: block;
+				margin: auto;  /* для выравнивания по центру  - убрать для выравнивания по верху*/
+				top: 0;  /* для выравнивания по центру */
+				bottom: 0;  /* для выравнивания по центру */
+				margin-left: -140px; /* смещение иконки влево от текста списка оно совпадает со значением отступа самого списка */
+				padding:0;
+				float: left;
+				background: url(img/icons/spritesheet.png) left center no-repeat;
+				width: 125px;
+				height: 139px;
+    background-position: -5px -303px;
+}
+
+.icon-clock:before {
+				content: "";
+				position:absolute;
+				display: block;
+				margin: auto;  /* для выравнивания по центру  - убрать для выравнивания по верху*/
+				top: 0;  /* для выравнивания по центру */
+				bottom: 0;  /* для выравнивания по центру */
+				margin-left: -140px; /* смещение иконки влево от текста списка оно совпадает со значением отступа самого списка */
+				padding:0;
+				float: left;
+				background: url(img/icons/spritesheet.png) left center no-repeat;
+				width: 125px;
+				height: 139px;
+    background-position: -5px -452px;
+}
+
+.icon-degree:before {
+				content: "";
+				position:absolute;
+				display: block;
+				margin: auto;  /* для выравнивания по центру  - убрать для выравнивания по верху*/
+				top: 0;  /* для выравнивания по центру */
+				bottom: 0;  /* для выравнивания по центру */
+				margin-left: -140px; /* смещение иконки влево от текста списка оно совпадает со значением отступа самого списка */
+				padding:0;
+				float: left;
+				background: url(img/icons/spritesheet.png) left center no-repeat;
+				width: 125px;
+				height: 139px;
+    background-position: -5px -601px;
+}
+
+.icon-lock:before {
+				content: "";
+				position:absolute;
+				display: block;
+				margin: auto;  /* для выравнивания по центру  - убрать для выравнивания по верху*/
+				top: 0;  /* для выравнивания по центру */
+				bottom: 0;  /* для выравнивания по центру */
+				margin-left: -140px; /* смещение иконки влево от текста списка оно совпадает со значением отступа самого списка */
+				padding:0;
+				float: left;
+				background: url(img/icons/spritesheet.png) left center no-repeat;
+				width: 125px;
+				height: 139px;
+    background-position: -5px -750px;
+}
+
+.icon-message2:before {
+				content: "";
+				position:absolute;
+				display: block;
+				margin: auto;  /* для выравнивания по центру  - убрать для выравнивания по верху*/
+				top: 0;  /* для выравнивания по центру */
+				bottom: 0;  /* для выравнивания по центру */
+				margin-left: -140px; /* смещение иконки влево от текста списка оно совпадает со значением отступа самого списка */
+				padding:0;
+				float: left;
+				background: url(img/icons/spritesheet.png) left center no-repeat;
+				width: 125px;
+				height: 139px;
+    background-position: -5px -899px;
+}
+
+.icon-moneyinpig:before {
+				content: "";
+				position:absolute;
+				display: block;
+				margin: auto;  /* для выравнивания по центру  - убрать для выравнивания по верху*/
+				top: 0;  /* для выравнивания по центру */
+				bottom: 0;  /* для выравнивания по центру */
+				margin-left: -140px; /* смещение иконки влево от текста списка оно совпадает со значением отступа самого списка */
+				padding:0;
+				float: left;
+				background: url(img/icons/spritesheet.png) left center no-repeat;
+				width: 125px;
+				height: 139px;
+    background-position: -5px -1048px;
+}
+
+.icon-place:before {
+				content: "";
+				position:absolute;
+				display: block;
+				margin: auto;  /* для выравнивания по центру  - убрать для выравнивания по верху*/
+				top: 0;  /* для выравнивания по центру */
+				bottom: 0;  /* для выравнивания по центру */
+				margin-left: -140px; /* смещение иконки влево от текста списка оно совпадает со значением отступа самого списка */
+				padding:0;
+				float: left;
+				background: url(img/icons/spritesheet.png) left center no-repeat;
+				width: 125px;
+				height: 139px;
+    background-position: -5px -1197px;
+}
+
+.icon-shield:before {
+				content: "";
+				position:absolute;
+				display: block;
+				margin: auto;  /* для выравнивания по центру  - убрать для выравнивания по верху*/
+				top: 0;  /* для выравнивания по центру */
+				bottom: 0;  /* для выравнивания по центру */
+				margin-left: -140px; /* смещение иконки влево от текста списка оно совпадает со значением отступа самого списка */
+				padding:0;
+				float: left;
+				background: url(img/icons/spritesheet.png) left center no-repeat;
+				width: 125px;
+				height: 139px;
+    background-position: -5px -1346px;
+}
+
+/*Стили фонов картинки*/
+
+
+
+

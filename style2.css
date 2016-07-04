@@ -1,0 +1,103 @@
+/* Решение для встраивания иконок в список  c центрированием иконки по высоте абзаца списка */
+body {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+}
+
+h1 {
+	font-size: 16px;	
+}
+p{
+	font-size:12px;
+}
+
+.box{ /*Задаем область нашего списка*/
+	//width: 500px;
+	margin: 20px 0 20px 20px;
+	background-color: #FCEABF;
+	color: black;
+}
+ul { /*Стиль списка в целом*/
+	margin: 10px;
+	list-style: none;
+	padding: 0;
+	display: block;
+
+}
+li { /*Стиль элементов списка*/
+padding-left: 140px;
+min-height: 140px;
+position: relative;
+
+}
+
+
+
+/*Стили фонов картинки*/
+
+.analytics, .bank, .bulb, .clock, .degree, .lock, .message2, .moneyinpig, .place, .shield{
+					background: url(img/icons/sprites.png) left top no-repeat;
+					display: block;
+					float: left;
+					width: 125px;
+					height: 139px;
+					vertical-align: middle;
+					position: absolute;
+					margin: auto;
+					top: 0;
+					bottom:0;
+					margin-left:-140px; /*  Для отделения от всего абзаца списка при его превышении в высоту высоты иконки, чтобы избежать эффект обтекания */
+					
+					
+			}
+
+			.analytics{
+				background-position: -1182px 0;
+
+			}
+
+			.bank{
+				background-position: -1054px 0;
+
+			}
+
+			.bulb{
+				background-position: -926px 0;
+
+			}
+
+		 .clock{
+				background-position: 0 0;
+
+			}
+  			.degree{
+				background-position: -390px 0;
+
+			}
+
+			.lock{
+				background-position: -788px 0;
+
+			}
+
+			.message2{
+				background-position: -518px 0;
+
+			}
+
+			.moneyinpig{
+				background-position: -128px 0;
+
+			}
+
+			.place{
+				background-position: -653px 0;
+
+			}
+
+			.shield{
+				background-position: -255px 0;
+
+			}
+
+

@@ -1,0 +1,65 @@
+.icon {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.icon-analytics {
+    width: 125px;
+    height: 139px;
+    background-position: -5px -5px;
+}
+
+.icon-bank {
+    width: 125px;
+    height: 139px;
+    background-position: -5px -154px;
+}
+
+.icon-bulb {
+    width: 125px;
+    height: 139px;
+    background-position: -5px -303px;
+}
+
+.icon-clock {
+    width: 125px;
+    height: 139px;
+    background-position: -5px -452px;
+}
+
+.icon-degree {
+    width: 125px;
+    height: 139px;
+    background-position: -5px -601px;
+}
+
+.icon-lock {
+    width: 125px;
+    height: 139px;
+    background-position: -5px -750px;
+}
+
+.icon-message2 {
+    width: 125px;
+    height: 139px;
+    background-position: -5px -899px;
+}
+
+.icon-moneyinpig {
+    width: 125px;
+    height: 139px;
+    background-position: -5px -1048px;
+}
+
+.icon-place {
+    width: 125px;
+    height: 139px;
+    background-position: -5px -1197px;
+}
+
+.icon-shield {
+    width: 125px;
+    height: 139px;
+    background-position: -5px -1346px;
+}
